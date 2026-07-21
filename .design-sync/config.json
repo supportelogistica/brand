@@ -1,0 +1,8 @@
+{
+  "projectId": "f37c8bb8-6b94-4036-b0e3-5d0d21159922",
+  "pkg": ".",
+  "readmeHeader": ".design-sync/conventions.md",
+  "projectName": "Supporte Brand",
+  "shape": "brand-assets",
+  "note": "Repo sem componentes de codigo (so tokens/fontes/logos/manual). Layout gerado a mao em ds-bundle/: styles.css + tokens/ + fonts/ + guidelines/ cards. Sem _ds_bundle.js e sem _ds_sync.json (proximo sync re-verifica tudo). Projeto 'Supporte Design System' (392d2146-...) e outro, feito dentro do claude.ai/design - NAO sincronizar por cima."
+}
