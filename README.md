@@ -29,7 +29,6 @@ Repositório oficial da identidade visual da **Supporte** — integradora logís
 
 **Regras essenciais:**
 
-- Área de proteção de **5x** ao redor do logo (x = largura da base do "P"). Nada encosta.
 - Tamanho mínimo: **100 px** no digital, **1,2 cm** no impresso.
 - Preferência: principal → monocromática → positiva/negativa. Sempre a de melhor contraste.
 - Proibido distorcer, rotacionar, sombrear, contornar, mudar cores ou aplicar efeitos.
@@ -44,19 +43,19 @@ Forma simplificada da logo ([svg](simbolo/pp.svg) · [png](simbolo/pp.png)). Use
 
 **Aplicação comum:** escolha livremente entre os três abaixo — a variação é proposital, nem todo produto precisa do mesmo ícone.
 
-| | Arquivo | Visual |
-| --- | --- | --- |
-| <img src="favicon/favicon.svg" width="32" alt="Favicon principal"> | [favicon](favicon/favicon.svg) | PP nu (o principal) |
-| <img src="favicon/favicon-alt.svg" width="32" alt="Favicon alt"> | [favicon-alt](favicon/favicon-alt.svg) | Squircle laranja |
-| <img src="favicon/favicon-producao.svg" width="32" alt="Favicon producao"> | [favicon-producao](favicon/favicon-producao.svg) | Squircle chumbo |
+| | Arquivo | Visual | Formatos |
+| --- | --- | --- | --- |
+| <img src="favicon/favicon.svg" width="32" alt="Favicon principal"> | favicon | PP nu (o principal) | [svg](favicon/favicon.svg) · [png](favicon/favicon.png) · [ico](favicon/favicon.ico) |
+| <img src="favicon/favicon-alt.svg" width="32" alt="Favicon alt"> | favicon-alt | Squircle laranja | [svg](favicon/favicon-alt.svg) · [png](favicon/favicon-alt.png) · [ico](favicon/favicon-alt.ico) |
+| <img src="favicon/favicon-producao.svg" width="32" alt="Favicon producao"> | favicon-producao | Squircle chumbo | [svg](favicon/favicon-producao.svg) · [png](favicon/favicon-producao.png) · [ico](favicon/favicon-producao.ico) |
 
 **Aplicação grande, com desenvolvimento e sustentação ativos:** use o kit completo por ambiente. Cada ambiente tem cor **e** forma próprias — impossível confundir a aba de produção com a de homologação:
 
-| Ambiente | | Arquivo |
-| --- | --- | --- |
-| Produção | <img src="favicon/favicon-producao.svg" width="32" alt="Producao"> | [favicon-producao](favicon/favicon-producao.svg) |
-| Homologação | <img src="favicon/favicon-homolog.svg" width="32" alt="Homologacao"> | [favicon-homolog](favicon/favicon-homolog.svg) |
-| Localhost | <img src="favicon/favicon-localhost.svg" width="32" alt="Localhost"> | [favicon-localhost](favicon/favicon-localhost.svg) |
+| Ambiente | | Arquivo | Formatos |
+| --- | --- | --- | --- |
+| Produção | <img src="favicon/favicon-producao.svg" width="32" alt="Producao"> | favicon-producao | [svg](favicon/favicon-producao.svg) · [png](favicon/favicon-producao.png) · [ico](favicon/favicon-producao.ico) |
+| Homologação | <img src="favicon/favicon-homolog.svg" width="32" alt="Homologacao"> | favicon-homolog | [svg](favicon/favicon-homolog.svg) · [png](favicon/favicon-homolog.png) |
+| Localhost | <img src="favicon/favicon-localhost.svg" width="32" alt="Localhost"> | favicon-localhost | [svg](favicon/favicon-localhost.svg) · [png](favicon/favicon-localhost.png) · [ico](favicon/favicon-localhost.ico) |
 
 ## Grafismos
 
