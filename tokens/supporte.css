@@ -1,0 +1,62 @@
+/*
+ * Tokens de design da marca Supporte.
+ * Cores oficiais do manual + derivados utilitarios para UI.
+ * Os derivados (sufixos numericos) NAO sao cores de marca: use-os para
+ * superficies, bordas e estados. A marca continua sendo chumbo + laranja + branco.
+ */
+
+:root {
+  /* ---------- Cores oficiais ---------- */
+  --supporte-chumbo: #58595b;  /* Pantone 425 C | CMYK 0,0,0,80 */
+  --supporte-laranja: #f37021; /* Pantone 158 C | CMYK 0,70,100,0 */
+  --supporte-branco: #ffffff;
+
+  /* ---------- Derivados utilitarios (UI) ---------- */
+  /* Escala do chumbo: texto, superficies e bordas */
+  --supporte-chumbo-900: #3f4041; /* fundos escuros, texto sobre claro com mais contraste */
+  --supporte-chumbo-700: #58595b; /* = cor oficial */
+  --supporte-chumbo-500: #77787a; /* texto secundario */
+  --supporte-chumbo-300: #b9babb; /* bordas, divisores */
+  --supporte-chumbo-100: #ececed; /* superficies claras */
+  --supporte-chumbo-050: #f7f7f8; /* fundo de pagina alternativo */
+
+  /* Escala do laranja: estados e realces */
+  --supporte-laranja-600: #d95e12; /* hover/active de botoes laranja */
+  --supporte-laranja-500: #f37021; /* = cor oficial */
+  --supporte-laranja-100: #fde3d2; /* fundos de destaque suaves */
+
+  /* ---------- Papeis semanticos ---------- */
+  --supporte-cor-texto: var(--supporte-chumbo);
+  --supporte-cor-texto-secundario: var(--supporte-chumbo-500);
+  --supporte-cor-fundo: var(--supporte-branco);
+  --supporte-cor-destaque: var(--supporte-laranja);
+  --supporte-cor-destaque-hover: var(--supporte-laranja-600);
+  --supporte-cor-borda: var(--supporte-chumbo-300);
+
+  /* ---------- Tipografia ---------- */
+  --supporte-fonte-titulo: "Titillium Web", "Segoe UI", sans-serif;
+  --supporte-fonte-texto: "Fira Sans", "Segoe UI", sans-serif;
+  --supporte-fonte-mono: "Fira Code", "Cascadia Code", monospace;
+
+  --supporte-peso-extraleve: 200;
+  --supporte-peso-leve: 300;
+  --supporte-peso-regular: 400;
+  --supporte-peso-semibold: 600;
+
+  /* ---------- Forma ---------- */
+  /* Cantos arredondados ecoam as curvas do "P" da marca */
+  --supporte-raio-sm: 6px;
+  --supporte-raio-md: 12px;
+  --supporte-raio-lg: 24px;
+  --supporte-raio-cheio: 9999px;
+
+  /* ---------- Espacamento (escala base 4px) ---------- */
+  --supporte-espaco-1: 4px;
+  --supporte-espaco-2: 8px;
+  --supporte-espaco-3: 12px;
+  --supporte-espaco-4: 16px;
+  --supporte-espaco-6: 24px;
+  --supporte-espaco-8: 32px;
+  --supporte-espaco-12: 48px;
+  --supporte-espaco-16: 64px;
+}

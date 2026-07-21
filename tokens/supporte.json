@@ -1,0 +1,67 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "$description": "Tokens de design da marca Supporte (formato W3C Design Tokens). Cores oficiais: chumbo, laranja e branco. Derivados numerados sao utilitarios de UI, nao cores de marca.",
+  "color": {
+    "chumbo": {
+      "$value": "#58595b",
+      "$type": "color",
+      "$description": "Cor oficial. Pantone 425 C. Textos, fundos, estrutura e contraste."
+    },
+    "laranja": {
+      "$value": "#f37021",
+      "$type": "color",
+      "$description": "Cor oficial. Pantone 158 C. Destaques, chamadas, grafismos. Nao usar em texto pequeno sem teste WCAG."
+    },
+    "branco": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Base neutra para leveza, contraste e legibilidade."
+    },
+    "chumbo-900": { "$value": "#3f4041", "$type": "color", "$description": "Derivado UI: fundos escuros." },
+    "chumbo-500": { "$value": "#77787a", "$type": "color", "$description": "Derivado UI: texto secundario." },
+    "chumbo-300": { "$value": "#b9babb", "$type": "color", "$description": "Derivado UI: bordas e divisores." },
+    "chumbo-100": { "$value": "#ececed", "$type": "color", "$description": "Derivado UI: superficies claras." },
+    "chumbo-050": { "$value": "#f7f7f8", "$type": "color", "$description": "Derivado UI: fundo de pagina alternativo." },
+    "laranja-600": { "$value": "#d95e12", "$type": "color", "$description": "Derivado UI: hover/active de acoes laranja." },
+    "laranja-100": { "$value": "#fde3d2", "$type": "color", "$description": "Derivado UI: fundos de destaque suaves." }
+  },
+  "fontFamily": {
+    "titulo": {
+      "$value": ["Titillium Web", "Segoe UI", "sans-serif"],
+      "$type": "fontFamily",
+      "$description": "Titulos, chamadas, numeros de destaque."
+    },
+    "texto": {
+      "$value": ["Fira Sans", "Segoe UI", "sans-serif"],
+      "$type": "fontFamily",
+      "$description": "Texto corrido, interfaces, formularios."
+    },
+    "mono": {
+      "$value": ["Fira Code", "Cascadia Code", "monospace"],
+      "$type": "fontFamily",
+      "$description": "Codigo e dados monoespacados. Ligaduras sempre ativadas."
+    }
+  },
+  "fontWeight": {
+    "extraleve": { "$value": 200, "$type": "fontWeight" },
+    "leve": { "$value": 300, "$type": "fontWeight" },
+    "regular": { "$value": 400, "$type": "fontWeight" },
+    "semibold": { "$value": 600, "$type": "fontWeight" }
+  },
+  "borderRadius": {
+    "sm": { "$value": "6px", "$type": "dimension" },
+    "md": { "$value": "12px", "$type": "dimension" },
+    "lg": { "$value": "24px", "$type": "dimension" },
+    "cheio": { "$value": "9999px", "$type": "dimension" }
+  },
+  "spacing": {
+    "1": { "$value": "4px", "$type": "dimension" },
+    "2": { "$value": "8px", "$type": "dimension" },
+    "3": { "$value": "12px", "$type": "dimension" },
+    "4": { "$value": "16px", "$type": "dimension" },
+    "6": { "$value": "24px", "$type": "dimension" },
+    "8": { "$value": "32px", "$type": "dimension" },
+    "12": { "$value": "48px", "$type": "dimension" },
+    "16": { "$value": "64px", "$type": "dimension" }
+  }
+}
