@@ -69,11 +69,11 @@ Linhas decorativas derivadas do "P" da marca, na pasta [grafismos/](grafismos/).
 
 ## Cores
 
-| Cor | HEX | Pantone | Uso |
+| Cor | HEX | RGB | Uso |
 | --- | --- | --- | --- |
-| Chumbo Supporte | `#58595B` | 425 C | Textos, fundos, estrutura |
-| Laranja Supporte | `#F37021` | 158 C | Destaques e direção do olhar |
-| Branco | `#FFFFFF` | — | Base neutra |
+| Chumbo Supporte | `#58595B` | `88, 89, 91` | Textos, fundos, estrutura |
+| Laranja Supporte | `#F37021` | `243, 112, 33` | Destaques e direção do olhar |
+| Branco | `#FFFFFF` | `255, 255, 255` | Base neutra |
 
 Chumbo e branco são a base; o laranja é acento, nunca preenchimento dominante. Em digital, valide contraste WCAG — laranja sobre branco falha para texto pequeno.
 
