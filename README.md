@@ -123,7 +123,7 @@ Duas regras que valem para todos, humanos e máquinas: **nunca use emojis** em m
 ## Estrutura do repositório
 
 ```text
-supporte-brand/
+brand/
 ├── AGENTS.md          regras para agentes de IA (CLAUDE.md aponta para cá)
 ├── DESIGN.md          tokens e diretrizes de UI (spec design.md)
 ├── LICENCA.md         licença de uso da marca (pt-BR)
