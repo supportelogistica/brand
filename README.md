@@ -79,11 +79,13 @@ Chumbo e branco são a base; o laranja é acento, nunca preenchimento dominante.
 
 ## Tipografia
 
-| Família | Papel | Pesos |
-| --- | --- | --- |
-| **Titillium Web** | Títulos, chamadas, números de destaque | 200 · 300 · 400 · 400i · 600 · 600i |
-| **Fira Sans** | Texto corrido, interfaces, formulários | 200 · 200i · 400 · 400i · 600 · 600i |
-| **Fira Code** | Código, logs, dados monoespaçados (ligaduras ativas) | 300 · 400 · 500 · 600 · 700 |
+| Família | Papel |
+| --- | --- |
+| **Titillium Web** | Títulos, chamadas e números de destaque. SemiBold nos títulos principais; Regular ou Light nos subtítulos. |
+| **Fira Sans** | Texto corrido, interfaces, tabelas e formulários. SemiBold para rótulos e ênfase; itálico só em ênfase pontual e citações. |
+| **Fira Code** | Exclusiva para código, logs e dados monoespaçados, sempre com ligaduras ativas. Nunca em texto corrido ou títulos. |
+
+Cada família vem do ExtraLight ao SemiBold (Fira Code vai até o Bold), com itálicos onde a marca prevê. Evite pesos muito leves em tamanhos pequenos ou fundos complexos.
 
 Tudo em [fontes/](fontes/) (ttf para instalar, woff2 para web) com [fontes.css](fontes/fontes.css) pronto:
 
