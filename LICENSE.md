@@ -1,65 +1,51 @@
-# Licença / License
+# Supporte Brand License
 
-## Português
-
-Este repositório contém dois tipos de conteúdo, com licenças diferentes:
-
-### 1. Ativos de marca — Todos os direitos reservados
-
-Os logotipos, o símbolo "PP", os favicons, os grafismos e o manual de marca (pastas `logo/`, `simbolo/`, `favicon/`, `grafismos/` e `manual/`) são propriedade da **Supporte** e estão protegidos por direitos autorais e de marca.
-
-© Supporte. Todos os direitos reservados.
-
-Estes arquivos são disponibilizados publicamente apenas para uso por colaboradores, parceiros e fornecedores **autorizados** da Supporte, em materiais relacionados à Supporte. Qualquer outro uso — incluindo reprodução, modificação ou uso em produtos e comunicações de terceiros — exige autorização prévia e por escrito da Supporte.
-
-### 2. Tokens e código — Licença MIT
-
-Os arquivos de tokens e código (`tokens/`, `fontes/fontes.css`, `DESIGN.md` frontmatter) são licenciados sob a licença MIT, abaixo.
-
-### 3. Fontes tipográficas
-
-As famílias Titillium Web, Fira Sans e Fira Code (pasta `fontes/`) são de terceiros e licenciadas sob a [SIL Open Font License 1.1](https://openfontlicense.org/), que permite uso e redistribuição.
-
-## English
-
-This repository contains two kinds of content, under different licenses:
-
-### 1. Brand assets — All rights reserved
-
-The logos, the "PP" symbol, the favicons, the background graphics, and the brand manual (folders `logo/`, `simbolo/`, `favicon/`, `grafismos/`, and `manual/`) are the property of **Supporte** and are protected by copyright and trademark law.
+**Language:** English (US) · [Versão em português](LICENCA.md)
 
 © Supporte. All rights reserved.
 
-These files are made publicly available solely for use by **authorized** Supporte employees, partners, and suppliers, in Supporte-related materials. Any other use — including reproduction, modification, or use in third-party products or communications — requires prior written permission from Supporte.
+## 1. Ownership
 
-### 2. Tokens and code — MIT License
+All content in this repository — including logos, the "PP" symbol, favicons, background graphics, the brand manual, design tokens, stylesheets, and documentation — is the exclusive property of **Supporte** and is protected by applicable copyright and industrial property law, including Brazilian Law No. 9,279/96 (trademarks) and Law No. 9,610/98 (copyright).
 
-The token and code files (`tokens/`, `fontes/fontes.css`, `DESIGN.md` frontmatter) are licensed under the MIT License below.
+Making this repository publicly available does **not** constitute an open license, assignment, waiver, or limitation of any of Supporte's rights.
 
-### 3. Typefaces
+## 2. Permitted use
 
-The Titillium Web, Fira Sans, and Fira Code families (folder `fontes/`) are third-party works licensed under the [SIL Open Font License 1.1](https://openfontlicense.org/), which permits use and redistribution.
+The following is permitted without further authorization:
 
----
+- **Authorized Supporte employees, partners, and suppliers:** using the official files in this repository in Supporte-related materials, systems, and communications, provided they comply with the rules in the brand manual and in the AGENTS.md file;
+- **Press and media outlets:** reproducing the logo for editorial and informational purposes that reference Supporte, without altering the files;
+- **Anyone:** viewing and referencing this repository for consultation purposes.
 
-## MIT License
+All permitted use is conditioned on:
 
-Copyright (c) 2026 Supporte
+1. using only the official files, without any modification, redrawing, cropping, or recombination;
+2. following the application rules defined in `manual/`, `AGENTS.md`, and `DESIGN.md`;
+3. not suggesting, directly or indirectly, any endorsement, sponsorship, or affiliation with Supporte that does not exist.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 3. Prohibited use
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Without Supporte's prior written permission, you may not:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- use any asset in this repository in third-party products, services, brands, domains, or communications;
+- modify, distort, recolor, animate, or create derivative works from the brand assets;
+- register, in whole or in part, any element of Supporte's visual identity as a trademark, industrial design, or domain name;
+- use the assets in contexts that disparage, confuse, or improperly associate Supporte's image;
+- resell, sublicense, or redistribute the assets outside the terms of this license.
+
+## 4. Third-party typefaces
+
+The **Titillium Web**, **Fira Sans**, and **Fira Code** font families (folder `fontes/`) are third-party works licensed under the [SIL Open Font License 1.1](https://openfontlicense.org/), which permits their use and redistribution under that license's own terms. They are **not** Supporte's property and are not subject to the restrictions of this license.
+
+## 5. Revocation and enforcement
+
+Supporte may revoke the authorization granted by this license at any time, at its sole discretion. Use in violation of these terms subjects the infringer to all applicable judicial and extrajudicial measures.
+
+## 6. Disclaimer of warranties
+
+The files are provided "as is", without warranties of any kind.
+
+## 7. Contact
+
+For questions about brand usage or permission requests, contact Supporte's communications team.

@@ -126,7 +126,8 @@ Duas regras que valem para todos, humanos e máquinas: **nunca use emojis** em m
 supporte-brand/
 ├── AGENTS.md          regras para agentes de IA (CLAUDE.md aponta para cá)
 ├── DESIGN.md          tokens e diretrizes de UI (spec design.md)
-├── LICENSE.md         licença dupla (assets proprietários / código MIT)
+├── LICENCA.md         licença de uso da marca (pt-BR)
+├── LICENSE.md         brand license (en-US)
 ├── favicon/           favicons padrão, alt e por ambiente
 ├── fontes/            Titillium Web, Fira Sans, Fira Code + fontes.css
 ├── grafismos/         linhas de fundo decorativas (detalhe 1, 2 e 3)
@@ -138,8 +139,7 @@ supporte-brand/
 
 ## Licença
 
-Modelo duplo — detalhes em [LICENSE.md](LICENSE.md):
+© Supporte. Todos os direitos reservados. Este repositório é público para facilitar o acesso de colaboradores, parceiros e imprensa aos arquivos oficiais — isso **não** o torna de uso livre.
 
-- **Ativos de marca** (logos, símbolo, favicons, grafismos, manual): © Supporte, todos os direitos reservados. Uso somente por colaboradores e parceiros autorizados.
-- **Tokens e código**: MIT.
-- **Fontes**: SIL Open Font License 1.1 (terceiros).
+- Termos completos: [LICENCA.md](LICENCA.md) (pt-BR) · [LICENSE.md](LICENSE.md) (en-US)
+- Exceção: as fontes em `fontes/` são de terceiros, sob [SIL Open Font License 1.1](https://openfontlicense.org/).
