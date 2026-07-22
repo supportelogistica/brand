@@ -54,7 +54,7 @@ Forma simplificada da logo ([svg](simbolo/pp.svg) · [png](simbolo/pp.png)). Use
 | Ambiente | | Arquivo | Formatos |
 | --- | --- | --- | --- |
 | Produção | <img src="favicon/favicon-producao.svg" width="32" alt="Producao"> | favicon-producao | [svg](favicon/favicon-producao.svg) · [png](favicon/favicon-producao.png) · [ico](favicon/favicon-producao.ico) |
-| Homologação | <img src="favicon/favicon-homolog.svg" width="32" alt="Homologacao"> | favicon-homolog | [svg](favicon/favicon-homolog.svg) · [png](favicon/favicon-homolog.png) |
+| Homologação | <img src="favicon/favicon-homolog.svg" width="32" alt="Homologacao"> | favicon-homolog | [svg](favicon/favicon-homolog.svg) · [png](favicon/favicon-homolog.png) · [ico](favicon/favicon-homolog.ico) |
 | Localhost | <img src="favicon/favicon-localhost.svg" width="32" alt="Localhost"> | favicon-localhost | [svg](favicon/favicon-localhost.svg) · [png](favicon/favicon-localhost.png) · [ico](favicon/favicon-localhost.ico) |
 
 ## Grafismos
