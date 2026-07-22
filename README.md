@@ -18,7 +18,7 @@ Aqui você encontra logotipos, símbolo, favicons, grafismos, fontes, tokens de 
 | Baixar o logotipo | Consulte a seção [Logotipo](#logotipo) |
 | Criar uma interface | Use os [tokens de design](#tokens-de-design), as [fontes](#tipografia) e o [DESIGN.md](DESIGN.md) |
 | Orientar um agente de IA | Peça para ele ler o [AGENTS.md](AGENTS.md) antes de começar |
-| Entender a identidade da Supporte | Consulte o [Manual de Marca](manual/Manual-de-Marca-Supporte.md) |
+| Entender a identidade da Supporte | Consulte o manual de marca interno (não faz parte deste repositório público) |
 
 ## Logotipo
 
@@ -215,12 +215,11 @@ brand/
 ├── fontes/            Titillium Web, Fira Sans, Fira Code e fontes.css
 ├── grafismos/         grafismos oficiais derivados do P
 ├── logo/              logotipo em quatro versões
-├── manual/            manual vigente e PDF histórico de 2017
 ├── simbolo/           símbolo PP isolado
 └── tokens/            tokens CSS, JSON e Tailwind CSS
 ```
 
-O manual em Markdown é a referência atual. O PDF de 2017 permanece no repositório apenas como documento histórico.
+O manual de marca completo (voz, tom, públicos, valores) é um documento interno e não faz parte deste repositório público.
 
 ## Licença
 

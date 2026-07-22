@@ -2,7 +2,7 @@
 
 Este repositório é a fonte oficial da marca **Supporte** (integradora logística brasileira). Se você é um agente construindo qualquer coisa com a marca — telas, documentos, apresentações, e-mails, textos — as regras abaixo são obrigatórias.
 
-**Hierarquia de fontes:** este arquivo (regras de uso de assets) → [DESIGN.md](DESIGN.md) (tokens e diretrizes de UI) → [manual/Manual-de-Marca-Supporte.md](manual/Manual-de-Marca-Supporte.md) (referência completa: voz, tom, públicos, valores). O PDF em `manual/` é o brandbook histórico de 2017 — consulte só como curiosidade, o que vale é o `.md`.
+**Hierarquia de fontes:** este arquivo (regras de uso de assets) → [DESIGN.md](DESIGN.md) (tokens e diretrizes de UI) → manual de marca interno (referência completa: voz, tom, públicos, valores — documento interno da Supporte, não faz parte deste repositório público; se você é um agente sem acesso a ele, siga o que está aqui e no DESIGN.md).
 
 ## Mapa do repositório
 
@@ -14,7 +14,6 @@ Este repositório é a fonte oficial da marca **Supporte** (integradora logísti
 | `grafismos/` | Linhas de fundo decorativas derivadas do "P" (svg + png) |
 | `fontes/` | Titillium Web, Fira Sans, Fira Code (ttf + woff2) + `fontes.css` |
 | `tokens/` | `supporte.css`, `supporte.json` (W3C), `tailwind.preset.js` |
-| `manual/` | Manual de marca em markdown + PDF original |
 
 Sempre use SVG quando o meio permitir; PNG é fallback para ferramentas que não aceitam vetor (PowerPoint antigo, e-mail). **Nunca redesenhe, recorte, recolora ou reconstrua qualquer asset.**
 
@@ -84,7 +83,7 @@ Nunca use grafismo como logotipo alternativo, nunca crie padrões decorativos no
 
 ## Escrevendo textos com a marca
 
-Tom por contexto (detalhes na seção 5 do manual):
+Tom por contexto (detalhes no manual de marca interno):
 
 | Contexto | Tom |
 | --- | --- |

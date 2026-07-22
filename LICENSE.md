@@ -6,7 +6,7 @@
 
 ## 1. Ownership
 
-All content in this repository — including logos, the "PP" symbol, favicons, background graphics, the brand manual, design tokens, stylesheets, and documentation — is the exclusive property of **Supporte** and is protected by applicable copyright and industrial property law, including Brazilian Law No. 9,279/96 (trademarks) and Law No. 9,610/98 (copyright).
+All content in this repository — including logos, the "PP" symbol, favicons, background graphics, design tokens, stylesheets, and documentation — is the exclusive property of **Supporte** and is protected by applicable copyright and industrial property law, including Brazilian Law No. 9,279/96 (trademarks) and Law No. 9,610/98 (copyright).
 
 Making this repository publicly available does **not** constitute an open license, assignment, waiver, or limitation of any of Supporte's rights.
 
@@ -21,7 +21,7 @@ The following is permitted without further authorization:
 All permitted use is conditioned on:
 
 1. using only the official files, without any modification, redrawing, cropping, or recombination;
-2. following the application rules defined in `manual/`, `AGENTS.md`, and `DESIGN.md`;
+2. following the application rules defined in `AGENTS.md` and `DESIGN.md`;
 3. not suggesting, directly or indirectly, any endorsement, sponsorship, or affiliation with Supporte that does not exist.
 
 ## 3. Prohibited use

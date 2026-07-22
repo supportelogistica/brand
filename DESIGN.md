@@ -67,7 +67,7 @@ A Supporte é uma integradora logística brasileira. A marca deve transmitir tec
 
 Personalidade em quatro papéis: atleta (energia, resultado), inovador (novas soluções), mentor (orienta e ensina), curador (cuidado com detalhes).
 
-Fonte completa das regras: [manual/Manual-de-Marca-Supporte.md](manual/Manual-de-Marca-Supporte.md). Regras de uso de assets (logos, favicons, grafismos): [AGENTS.md](AGENTS.md).
+Fonte completa das regras: manual de marca interno da Supporte (não incluído neste repositório público). Regras de uso de assets (logos, favicons, grafismos): [AGENTS.md](AGENTS.md).
 
 ## Colors
 

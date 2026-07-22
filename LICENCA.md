@@ -6,7 +6,7 @@
 
 ## 1. Titularidade
 
-Todo o conteúdo deste repositório — incluindo logotipos, o símbolo "PP", favicons, grafismos, manual de marca, tokens de design, folhas de estilo e documentação — é propriedade exclusiva da **Supporte** e está protegido pela legislação de direitos autorais e de propriedade industrial aplicável, incluindo a Lei nº 9.279/96 (marcas) e a Lei nº 9.610/98 (direitos autorais).
+Todo o conteúdo deste repositório — incluindo logotipos, o símbolo "PP", favicons, grafismos, tokens de design, folhas de estilo e documentação — é propriedade exclusiva da **Supporte** e está protegido pela legislação de direitos autorais e de propriedade industrial aplicável, incluindo a Lei nº 9.279/96 (marcas) e a Lei nº 9.610/98 (direitos autorais).
 
 A disponibilização pública deste repositório **não** constitui licença aberta, cessão, renúncia ou limitação de quaisquer direitos da Supporte.
 
@@ -21,7 +21,7 @@ A disponibilização pública deste repositório **não** constitui licença abe
 Todo uso permitido está condicionado a:
 
 1. utilizar exclusivamente os arquivos oficiais, sem qualquer modificação, redesenho, recorte ou recombinação;
-2. respeitar as regras de aplicação definidas em `manual/`, `AGENTS.md` e `DESIGN.md`;
+2. respeitar as regras de aplicação definidas em `AGENTS.md` e `DESIGN.md`;
 3. não sugerir, direta ou indiretamente, endosso, patrocínio ou vínculo com a Supporte que não exista.
 
 ## 3. Uso proibido
