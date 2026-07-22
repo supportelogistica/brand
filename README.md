@@ -61,11 +61,18 @@ Forma simplificada da logo ([svg](simbolo/pp.svg) · [png](simbolo/pp.png)). Use
 
 Linhas decorativas derivadas do "P" da marca, na pasta [grafismos/](grafismos/). Escolha a variante `fundo-claro`/`fundo-escuro` conforme o fundo, e ancore no canto que o nome do arquivo indica.
 
-| Família | Papel | Regra de uso |
-| --- | --- | --- |
-| `detalhe-1` | O principal — capas, splash screens, slides de título | Sempre em **par**: canto superior direito + canto inferior esquerdo juntos. Cansa se usado demais: em apresentações, só na capa e nos títulos de seção. |
-| `detalhe-2` | Faixa de título de páginas secundárias | Raro e exigente: sempre com **texto branco dentro** da curva laranja. Na dúvida, não use. |
-| `detalhe-3` | Marca d'água de páginas chapadas | Dá vida a fundos brancos ou escuros sem pesar. Sozinho ou combinado com o `detalhe-2`. |
+<table>
+<tr>
+<td width="33%"><img src="docs/previews/preview-detalhe-1.svg" alt="Exemplo de aplicacao do detalhe-1"></td>
+<td width="33%"><img src="docs/previews/preview-detalhe-2.svg" alt="Exemplo de aplicacao do detalhe-2"></td>
+<td width="33%"><img src="docs/previews/preview-detalhe-3.svg" alt="Exemplo de aplicacao do detalhe-3"></td>
+</tr>
+<tr>
+<td valign="top"><strong><code>detalhe-1</code></strong><br><br>O principal. Sempre em <strong>par</strong> (canto superior direito + canto inferior esquerdo), só em capas, splash screens e slides de título. Cansa se usado demais: em apresentações, apenas capa e títulos de seção.</td>
+<td valign="top"><strong><code>detalhe-2</code></strong><br><br>Raro e exigente: faixa de título de páginas secundárias, sempre com <strong>texto branco dentro</strong> da curva laranja. Na dúvida, não use.</td>
+<td valign="top"><strong><code>detalhe-3</code></strong><br><br>Marca d'água para dar vida a páginas chapadas (claras ou escuras) sem pesar. Sozinho ou combinado com o <code>detalhe-2</code>.</td>
+</tr>
+</table>
 
 ## Cores
 

@@ -1,0 +1,9 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><clipPath id="card"><rect width="600" height="600" rx="24"/></clipPath></defs>
+<g clip-path="url(#card)">
+<rect width="600" height="600" fill="#FFFFFF"/>
+<rect width="599" height="599" x="0.5" y="0.5" rx="23.5" stroke="#B9BABB" fill="none"/>
+<svg x="0" y="0" width="600" height="225" viewBox="0 0 863 324" preserveAspectRatio="xMinYMin meet"><g clip-path="url(#clip0_312_340)"><path d="M862.41 0.130005H654.59C619.19 90.57 538.18 139.01 417.94 139.01H0.279766C0.0197656 139.01 -0.236901 139.013 -0.490234 139.02V322.6C3.95643 323.213 8.48643 323.523 13.0998 323.53H439.35C665.82 323.53 819.88 202.43 862.41 0.130005Z" fill="#FF6A23"/></g><defs><clipPath id="clip0_312_340"><rect width="863" height="324" fill="white"/></clipPath></defs></svg>
+<text x="36" y="172" font-family="'Titillium Web','Segoe UI',sans-serif" font-size="30" font-weight="600" fill="#FFFFFF">T&#237;tulo da p&#225;gina</text>
+</g>
+</svg>
