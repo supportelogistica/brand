@@ -1,8 +1,8 @@
-# AGENTS.md — Marca Supporte para agentes de IA
+# Marca Supporte para agentes de IA
 
-Este repositório é a fonte oficial da marca **Supporte** (integradora logística brasileira). Se você é um agente construindo qualquer coisa com a marca — telas, documentos, apresentações, e-mails, textos — as regras abaixo são obrigatórias.
+Este repositório é a fonte oficial da marca **Supporte** (integradora logística brasileira). Se você é um agente construindo qualquer coisa com a marca (telas, documentos, apresentações, e-mails, textos), as regras abaixo são obrigatórias.
 
-**Hierarquia de fontes:** este arquivo (regras de uso de assets) → [DESIGN.md](DESIGN.md) (tokens e diretrizes de UI) → manual de marca interno (referência completa: voz, tom, públicos, valores — documento interno da Supporte, não faz parte deste repositório público; se você é um agente sem acesso a ele, siga o que está aqui e no DESIGN.md).
+**Hierarquia de fontes:** este arquivo (regras de uso de assets) → [DESIGN.md](DESIGN.md) (tokens e diretrizes de UI) → manual de marca interno (referência completa de voz, tom, públicos e valores; é documento interno da Supporte e não faz parte deste repositório público. Sem acesso a ele, siga o que está aqui e no DESIGN.md).
 
 ## Mapa do repositório
 
@@ -13,11 +13,11 @@ Este repositório é a fonte oficial da marca **Supporte** (integradora logísti
 | `favicon/` | Favicons: padrão, alt e kit por ambiente (svg + png + ico) |
 | `grafismos/` | Linhas de fundo decorativas derivadas do "P" (svg + png) |
 | `fontes/` | Titillium Web, Fira Sans, Fira Code (ttf + woff2) + `fontes.css` |
-| `tokens/` | `supporte.css`, `supporte.json` (W3C), `tailwind.preset.js` |
+| `tokens/` | `supporte.css`, `supporte.json` (W3C), `tailwind.css` (v4), `tailwind.preset.js` (v3) |
 
 Sempre use SVG quando o meio permitir; PNG é fallback para ferramentas que não aceitam vetor (PowerPoint antigo, e-mail). **Nunca redesenhe, recorte, recolora ou reconstrua qualquer asset.**
 
-## Logotipo — qual arquivo usar
+## Logotipo: qual arquivo usar
 
 | Situação | Arquivo |
 | --- | --- |
@@ -37,16 +37,16 @@ Regras fixas:
 
 O "PP" é a forma simplificada da logo. Permitido, **com parcimônia**:
 
-- Avatar, ícone de app, crachá — contextos onde a marca já é conhecida.
+- Avatar, ícone de app e crachá, contextos onde a marca já é conhecida.
 - Elemento gráfico: separador de footer, detalhe de cabeçalho, marca d'água discreta.
 
 Nunca como substituto do logotipo em peças de comunicação, e nunca para criar submarca sem aprovação.
 
-## Favicons — regra de escolha
+## Favicons: regra de escolha
 
-**Aplicação comum (site, ferramenta pequena):** escolha livremente um entre `favicon` (PP nu — o principal), `favicon-alt` (squircle laranja) ou `favicon-producao` (squircle chumbo). A variação é proposital: nem tudo precisa usar o mesmo ícone.
+**Aplicação comum (site, ferramenta pequena):** escolha livremente um entre `favicon` (PP sem fundo, o principal), `favicon-alt` (squircle laranja) ou `favicon-producao` (squircle chumbo). A variação é proposital: nem tudo precisa usar o mesmo ícone.
 
-**Aplicação grande com desenvolvimento e sustentação ativos:** use o kit completo por ambiente — a forma e a cor diferentes evitam confundir abas:
+**Aplicação grande com desenvolvimento e sustentação ativos:** use o kit completo por ambiente. A forma e a cor diferentes evitam confundir abas:
 
 | Ambiente | Arquivo | Visual |
 | --- | --- | --- |
@@ -54,22 +54,22 @@ Nunca como substituto do logotipo em peças de comunicação, e nunca para criar
 | Homologação | `favicon/favicon-homolog.svg` | hexágono azul, PP branco |
 | Localhost | `favicon/favicon-localhost.svg` | círculo verde com grade, PP branco |
 
-## Grafismos (`grafismos/`) — regra de uso
+## Grafismos (`grafismos/`): regra de uso
 
 Três famílias, papéis distintos. Escolha a variante `fundo-claro`/`fundo-escuro` conforme o fundo da peça, e ancore no canto que o nome do arquivo indica (não rotacione para outro canto).
 
-**`detalhe-1` — o principal.** São DOIS arquivos usados JUNTOS: o do canto superior direito + o do canto inferior esquerdo, na mesma peça. Uso: capas, splash screens e slides de título. Cansa se usado demais — em uma apresentação, aplique somente na capa e nos slides de título de seção, nunca em todos os slides.
+**`detalhe-1`, o principal.** São DOIS arquivos usados JUNTOS: o do canto superior direito + o do canto inferior esquerdo, na mesma peça. Uso: capas, splash screens e slides de título. Cansa se usado demais: em uma apresentação, aplique somente na capa e nos slides de título de seção, nunca em todos os slides.
 
-**`detalhe-2` — raro e exigente.** Curva laranja grossa e chapada. Serve como faixa de título de páginas não principais, sempre com texto branco dentro dela. Se não souber aplicar bem ou o layout dificultar, simplesmente não use.
+**`detalhe-2`, raro e exigente.** Curva laranja grossa e chapada. Serve como faixa de título de páginas não principais, sempre com texto branco dentro dela. Se não souber aplicar bem ou o layout dificultar, simplesmente não use.
 
-**`detalhe-3` — marca d'água.** Malha de curvas para dar vida a páginas chapadas (brancas ou escuras) sem pesar. Pode ser usado sozinho ou combinado com o `detalhe-2`.
+**`detalhe-3`, a marca d'água.** Malha de curvas para dar vida a páginas chapadas (brancas ou escuras) sem pesar. Pode ser usado sozinho ou combinado com o `detalhe-2`.
 
 Nunca use grafismo como logotipo alternativo, nunca crie padrões decorativos novos a partir deles.
 
 ## Construindo interfaces (web/app)
 
-1. Leia [DESIGN.md](DESIGN.md) — tokens YAML + regras de UI.
-2. Importe `tokens/supporte.css` (variáveis) e `fontes/fontes.css` (@font-face). Tailwind: `tokens/tailwind.preset.js` (v3) ou `@theme` (v4, instruções no próprio preset).
+1. Leia [DESIGN.md](DESIGN.md): tokens YAML e regras de UI.
+2. Importe `tokens/supporte.css` (variáveis) e `fontes/fontes.css` (@font-face). Tailwind: `tokens/tailwind.css` (v4, CSS-first) ou `tokens/tailwind.preset.js` (legado, v3).
 3. Favicon conforme a regra acima.
 4. Contraste: laranja sobre branco falha WCAG AA em texto pequeno. Teste antes de usar laranja em texto ou controles.
 5. Ícones: [Lucide](https://lucide.dev/) é a família padrão. Logos de terceiros: Iconify/Simple Icons (`https://api.iconify.design/simple-icons/{marca}.svg?color=%23F37021` para monocromático). Não misture famílias de ícones.

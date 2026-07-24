@@ -1,0 +1,59 @@
+/*
+ * Tokens da marca Supporte para Tailwind CSS v4 (CSS-first).
+ *
+ * Uso:
+ *   @import "tailwindcss";
+ *   @import "./tokens/tailwind.css";
+ *
+ * Gera utilitarios como bg-chumbo-700, text-laranja-500, font-titulo,
+ * font-texto, font-mono e rounded-supporte-md.
+ *
+ * Os passos numericos NAO sao cores de marca: sao derivados utilitarios
+ * para superficies, bordas e estados. A escala segue o padrao Tailwind
+ * (50-950); os passos sem comentario foram interpolados a partir dos
+ * valores oficiais. A marca continua sendo chumbo + laranja + branco.
+ */
+@theme {
+  /* ---------- Cores oficiais ---------- */
+  --color-chumbo: #58595b; /* Pantone 425 C | CMYK 0,0,0,80 */
+  --color-laranja: #f37021; /* Pantone 158 C | CMYK 0,70,100,0 */
+  --color-branco: #ffffff;
+
+  /* ---------- Derivados utilitarios (UI) ---------- */
+  /* Escala do chumbo: texto, superficies e bordas */
+  --color-chumbo-50: #f7f7f8; /* fundo de pagina alternativo */
+  --color-chumbo-100: #ececed; /* superficies claras */
+  --color-chumbo-200: #d3d4d5;
+  --color-chumbo-300: #b9babb; /* bordas, divisores */
+  --color-chumbo-400: #98999b;
+  --color-chumbo-500: #77787a; /* texto secundario */
+  --color-chumbo-600: #68696b;
+  --color-chumbo-700: #58595b; /* = cor oficial */
+  --color-chumbo-800: #4c4d4e;
+  --color-chumbo-900: #3f4041; /* fundos escuros, texto com mais contraste */
+  --color-chumbo-950: #1b1c1d;
+
+  /* Escala do laranja: estados e realces */
+  --color-laranja-50: #fef4ec;
+  --color-laranja-100: #fde3d2; /* fundos de destaque suaves */
+  --color-laranja-200: #fac5a4;
+  --color-laranja-300: #f8a878;
+  --color-laranja-400: #f58c4d;
+  --color-laranja-500: #f37021; /* = cor oficial */
+  --color-laranja-600: #d95e12; /* hover/active de botoes laranja */
+  --color-laranja-700: #b34d0f;
+  --color-laranja-800: #8c3d0c;
+  --color-laranja-900: #662c09;
+  --color-laranja-950: #401c06;
+
+  /* ---------- Tipografia ---------- */
+  --font-titulo: 'Titillium Web', 'Segoe UI', sans-serif;
+  --font-texto: 'Fira Sans', 'Segoe UI', sans-serif;
+  --font-mono: 'Fira Code', 'Cascadia Code', monospace;
+
+  /* ---------- Forma ---------- */
+  /* Cantos arredondados ecoam as curvas do "P" da marca */
+  --radius-supporte-sm: 6px;
+  --radius-supporte-md: 12px;
+  --radius-supporte-lg: 24px;
+}

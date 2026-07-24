@@ -17,13 +17,28 @@
       "$type": "color",
       "$description": "Base neutra para leveza, contraste e legibilidade."
     },
-    "chumbo-900": { "$value": "#3f4041", "$type": "color", "$description": "Derivado UI: fundos escuros." },
-    "chumbo-500": { "$value": "#77787a", "$type": "color", "$description": "Derivado UI: texto secundario." },
-    "chumbo-300": { "$value": "#b9babb", "$type": "color", "$description": "Derivado UI: bordas e divisores." },
-    "chumbo-100": { "$value": "#ececed", "$type": "color", "$description": "Derivado UI: superficies claras." },
     "chumbo-050": { "$value": "#f7f7f8", "$type": "color", "$description": "Derivado UI: fundo de pagina alternativo." },
+    "chumbo-100": { "$value": "#ececed", "$type": "color", "$description": "Derivado UI: superficies claras." },
+    "chumbo-200": { "$value": "#d3d4d5", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "chumbo-300": { "$value": "#b9babb", "$type": "color", "$description": "Derivado UI: bordas e divisores." },
+    "chumbo-400": { "$value": "#98999b", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "chumbo-500": { "$value": "#77787a", "$type": "color", "$description": "Derivado UI: texto secundario." },
+    "chumbo-600": { "$value": "#68696b", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "chumbo-700": { "$value": "#58595b", "$type": "color", "$description": "Derivado UI: igual a cor oficial." },
+    "chumbo-800": { "$value": "#4c4d4e", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "chumbo-900": { "$value": "#3f4041", "$type": "color", "$description": "Derivado UI: fundos escuros." },
+    "chumbo-950": { "$value": "#1b1c1d", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "laranja-050": { "$value": "#fef4ec", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "laranja-100": { "$value": "#fde3d2", "$type": "color", "$description": "Derivado UI: fundos de destaque suaves." },
+    "laranja-200": { "$value": "#fac5a4", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "laranja-300": { "$value": "#f8a878", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "laranja-400": { "$value": "#f58c4d", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "laranja-500": { "$value": "#f37021", "$type": "color", "$description": "Derivado UI: igual a cor oficial." },
     "laranja-600": { "$value": "#d95e12", "$type": "color", "$description": "Derivado UI: hover/active de acoes laranja." },
-    "laranja-100": { "$value": "#fde3d2", "$type": "color", "$description": "Derivado UI: fundos de destaque suaves." }
+    "laranja-700": { "$value": "#b34d0f", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "laranja-800": { "$value": "#8c3d0c", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "laranja-900": { "$value": "#662c09", "$type": "color", "$description": "Derivado UI: interpolado." },
+    "laranja-950": { "$value": "#401c06", "$type": "color", "$description": "Derivado UI: interpolado." }
   },
   "fontFamily": {
     "titulo": {

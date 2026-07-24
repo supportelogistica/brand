@@ -136,6 +136,15 @@ As famílias estão disponíveis na pasta [fontes/](fontes/):
 - `woff2` para aplicações web
 - [fontes.css](fontes/fontes.css) com as declarações `@font-face` prontas
 
+Para baixar tudo de uma vez:
+
+| Pacote | Conteúdo |
+| --- | --- |
+| [supporte-fontes.zip](fontes/supporte-fontes.zip) | As três famílias completas e o fontes.css |
+| [fira-code.zip](fontes/fira-code.zip) | Só a Fira Code |
+| [fira-sans.zip](fontes/fira-sans.zip) | Só a Fira Sans |
+| [titillium-web.zip](fontes/titillium-web.zip) | Só a Titillium Web |
+
 Para usar as fontes em um projeto web:
 
 ```html
@@ -152,7 +161,8 @@ A pasta [tokens/](tokens/) reúne cores, fontes, espaçamentos, raios e outros v
 | --- | --- |
 | [supporte.css](tokens/supporte.css) | Variáveis CSS prontas para projetos web |
 | [supporte.json](tokens/supporte.json) | Tokens no formato W3C Design Tokens |
-| [tailwind.preset.js](tokens/tailwind.preset.js) | Preset para Tailwind CSS v3, com orientações para Tailwind CSS v4 |
+| [tailwind.css](tokens/tailwind.css) | Tokens para Tailwind CSS v4, no formato CSS-first (`@theme`) |
+| [tailwind.preset.js](tokens/tailwind.preset.js) | Preset legado para projetos ainda em Tailwind CSS v3 |
 
 Exemplo com CSS:
 
