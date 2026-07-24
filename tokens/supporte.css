@@ -12,18 +12,34 @@
   --supporte-branco: #ffffff;
 
   /* ---------- Derivados utilitarios (UI) ---------- */
+  /* Escala completa 50-950 no padrao Tailwind. Os passos sem comentario
+   * foram interpolados para completar a escala. */
+
   /* Escala do chumbo: texto, superficies e bordas */
-  --supporte-chumbo-900: #3f4041; /* fundos escuros, texto sobre claro com mais contraste */
-  --supporte-chumbo-700: #58595b; /* = cor oficial */
-  --supporte-chumbo-500: #77787a; /* texto secundario */
-  --supporte-chumbo-300: #b9babb; /* bordas, divisores */
-  --supporte-chumbo-100: #ececed; /* superficies claras */
   --supporte-chumbo-050: #f7f7f8; /* fundo de pagina alternativo */
+  --supporte-chumbo-100: #ececed; /* superficies claras */
+  --supporte-chumbo-200: #d3d4d5;
+  --supporte-chumbo-300: #b9babb; /* bordas, divisores */
+  --supporte-chumbo-400: #98999b;
+  --supporte-chumbo-500: #77787a; /* texto secundario */
+  --supporte-chumbo-600: #68696b;
+  --supporte-chumbo-700: #58595b; /* = cor oficial */
+  --supporte-chumbo-800: #4c4d4e;
+  --supporte-chumbo-900: #3f4041; /* fundos escuros, texto sobre claro com mais contraste */
+  --supporte-chumbo-950: #1b1c1d;
 
   /* Escala do laranja: estados e realces */
-  --supporte-laranja-600: #d95e12; /* hover/active de botoes laranja */
-  --supporte-laranja-500: #f37021; /* = cor oficial */
+  --supporte-laranja-050: #fef4ec;
   --supporte-laranja-100: #fde3d2; /* fundos de destaque suaves */
+  --supporte-laranja-200: #fac5a4;
+  --supporte-laranja-300: #f8a878;
+  --supporte-laranja-400: #f58c4d;
+  --supporte-laranja-500: #f37021; /* = cor oficial */
+  --supporte-laranja-600: #d95e12; /* hover/active de botoes laranja */
+  --supporte-laranja-700: #b34d0f;
+  --supporte-laranja-800: #8c3d0c;
+  --supporte-laranja-900: #662c09;
+  --supporte-laranja-950: #401c06;
 
   /* ---------- Papeis semanticos ---------- */
   --supporte-cor-texto: var(--supporte-chumbo);
