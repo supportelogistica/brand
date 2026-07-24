@@ -6,7 +6,7 @@
 
 ## 1. Titularidade
 
-Todo o conteúdo deste repositório — incluindo logotipos, o símbolo "PP", favicons, grafismos, tokens de design, folhas de estilo e documentação — é propriedade exclusiva da **Supporte** e está protegido pela legislação de direitos autorais e de propriedade industrial aplicável, incluindo a Lei nº 9.279/96 (marcas) e a Lei nº 9.610/98 (direitos autorais).
+Todo o conteúdo deste repositório (logotipos, o símbolo "PP", favicons, grafismos, tokens de design, folhas de estilo e documentação) é propriedade exclusiva da **Supporte** e está protegido pela legislação de direitos autorais e de propriedade industrial aplicável, incluindo a Lei nº 9.279/96 (marcas) e a Lei nº 9.610/98 (direitos autorais).
 
 A disponibilização pública deste repositório **não** constitui licença aberta, cessão, renúncia ou limitação de quaisquer direitos da Supporte.
 

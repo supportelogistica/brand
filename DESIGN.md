@@ -59,11 +59,11 @@ components:
     radius: "{rounded.lg}"
 ---
 
-# Supporte — DESIGN.md
+# Diretrizes de design da Supporte
 
 ## Overview
 
-A Supporte é uma integradora logística brasileira. A marca deve transmitir tecnologia com humanização: confiável, técnica, contemporânea, próxima e sem ostentação. Interfaces são limpas e leves, com muito respiro, base neutra (branco + chumbo) e o laranja usado com intenção — ele conduz o olhar, não decora.
+A Supporte é uma integradora logística brasileira. A marca deve transmitir tecnologia com humanização: confiável, técnica, contemporânea, próxima e sem ostentação. Interfaces são limpas e leves, com muito respiro, base neutra (branco + chumbo) e o laranja usado com intenção: ele conduz o olhar, não decora.
 
 Personalidade em quatro papéis: atleta (energia, resultado), inovador (novas soluções), mentor (orienta e ensina), curador (cuidado com detalhes).
 
@@ -76,14 +76,14 @@ Somente três cores de marca: **Chumbo Supporte** `#58595B`, **Laranja Supporte*
 - Chumbo e branco são as bases visuais; laranja é reservado para destaque, chamadas e direção do olhar.
 - Nunca preencha a interface inteira de laranja; ele perde a função de destaque.
 - Texto corrido: chumbo sobre branco.
-- Laranja `#F37021` sobre branco NÃO passa em contraste WCAG AA para texto pequeno — use-o em texto grande, elementos gráficos ou fundos com texto branco por cima (teste sempre).
+- Laranja `#F37021` sobre branco NÃO passa em contraste WCAG AA para texto pequeno. Use-o em texto grande, elementos gráficos ou fundos com texto branco por cima (teste sempre).
 - Nunca comunique estado (erro, sucesso, prioridade) apenas com cor.
 
 ## Typography
 
 - **Titillium Web** para títulos, chamadas e números de destaque. SemiBold (600) em títulos principais; Regular ou Light em subtítulos.
 - **Fira Sans** para parágrafos, legendas, tabelas, formulários e qualquer texto funcional. SemiBold para rótulos e ênfase.
-- **Fira Code** exclusivamente para código, comandos, logs e dados monoespaçados — sempre com ligaduras ativadas (`font-variant-ligatures: common-ligatures contextual`). Nunca em texto corrido ou títulos.
+- **Fira Code** exclusivamente para código, comandos, logs e dados monoespaçados, sempre com ligaduras ativadas (`font-variant-ligatures: common-ligatures contextual`). Nunca em texto corrido ou títulos.
 - Evite pesos muito leves (200/300) em tamanhos pequenos ou fundos complexos.
 - Itálico apenas para ênfase pontual, termos e citações.
 
@@ -104,7 +104,7 @@ Arquivos e `@font-face` prontos em [fontes/fontes.css](fontes/fontes.css).
 ## Shapes
 
 - Cantos arredondados ecoam as curvas do "P" da marca: 6px (controles pequenos), 12px (botões e inputs), 24px (cards e painéis).
-- Grafismos de fundo derivam do "P" (curvas e linhas). Use os arquivos prontos de `grafismos/` conforme as regras do AGENTS.md — não desenhe curvas novas.
+- Grafismos de fundo derivam do "P" (curvas e linhas). Use os arquivos prontos de `grafismos/` conforme as regras do AGENTS.md e não desenhe curvas novas.
 - Ícones: família [Lucide](https://lucide.dev/) como padrão. Logos de terceiros via Iconify/Simple Icons. **Nunca use emojis** em nenhuma interface ou documento da marca.
 
 ## Components
