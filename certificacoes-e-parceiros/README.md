@@ -18,7 +18,6 @@ Os arquivos desta pasta são marcas registradas de outras organizações (GPTW e
 - `selo-gptw-2026.svg` / `selo-gptw-2026.png`
 - Período do selo atual: **DEZ 2025-DEZ 2026**.
 - O SVG mantém o texto do período e do país como texto editável, não como desenho ou path. Isso permite atualizar o texto quando o selo for renovado.
-- Fonte oficial: gerador de selo da GPTW Brasil, distribuído pela PagBrasil (parceira oficial GPTW no Brasil). Capturado em 08/2026.
 
 ### ABOL (Associação Brasileira de Operadores Logísticos)
 
