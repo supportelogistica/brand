@@ -7,7 +7,7 @@
 
 Este é o repositório oficial da identidade visual da **Supporte**.
 
-Aqui você encontra logotipos, símbolo, favicons, grafismos, fontes, tokens de design e as orientações necessárias para aplicar a marca em materiais, interfaces e projetos de código.
+Este repositório contém logotipos, símbolo, favicons, grafismos, fontes, tokens de design e as orientações para aplicar a marca em materiais, interfaces e projetos de código.
 
 > Use sempre os arquivos originais deste repositório. Não redesenhe, recorte, recolora ou reconstrua a marca.
 
@@ -35,7 +35,7 @@ Escolha a versão de acordo com o fundo e o tipo de aplicação.
 
 - Use o logotipo com pelo menos **100 px** de largura no digital ou **1,2 cm** no impresso.
 - Dê preferência às versões principais para fundo claro ou escuro.
-- Use as versões monocromáticas quando a aplicação permitir apenas uma cor.
+- Quando a aplicação permitir apenas uma cor, use as versões monocromáticas.
 - Não altere cores, proporções, tipografia ou espaçamento.
 - Não rotacione, distorça ou aplique sombras, contornos, degradês e outros efeitos.
 - Mantenha uma área livre de 5x ao redor do logotipo. O valor de x corresponde à largura da base do “P”.
@@ -46,7 +46,7 @@ Escolha a versão de acordo com o fundo e o tipo de aplicação.
 
 O símbolo PP é uma versão simplificada da marca.
 
-Ele pode ser usado em avatares, ícones de aplicativos, crachás e pequenos detalhes de cabeçalhos ou rodapés.
+Use-o em avatares, ícones de aplicativos, crachás e pequenos detalhes de cabeçalhos ou rodapés.
 
 Arquivos disponíveis: [svg](simbolo/pp.svg) · [png](simbolo/pp.png)
 
@@ -68,7 +68,7 @@ Em aplicações que não precisam diferenciar ambientes, escolha uma das versõe
 
 Em sistemas com desenvolvimento e sustentação ativos, use um favicon diferente para cada ambiente.
 
-As diferenças de cor e formato ajudam a identificar rapidamente se a aba aberta é de produção, homologação ou desenvolvimento local.
+Cor e formato diferentes indicam se a aba aberta é de produção, homologação ou desenvolvimento local.
 
 | Ambiente | Visual | Arquivo | Formatos |
 | --- | --- | --- | --- |
@@ -78,9 +78,9 @@ As diferenças de cor e formato ajudam a identificar rapidamente se a aba aberta
 
 ## Grafismos
 
-Os grafismos da pasta [grafismos/](grafismos/) foram criados a partir das curvas do “P” da marca.
+Os grafismos da pasta [grafismos/](grafismos/) partem das curvas do “P” da marca.
 
-Cada arquivo possui uma variante para fundo claro ou escuro e já indica no nome o canto em que deve ser aplicado. Use o arquivo na posição prevista, sem rotacionar ou reconstruir as curvas.
+Cada arquivo tem uma variante para fundo claro ou escuro. O nome já indica o canto em que ele deve ser aplicado. Use o arquivo na posição prevista, sem rotacionar ou reconstruir as curvas.
 
 <table>
 <tr>
@@ -91,15 +91,15 @@ Cada arquivo possui uma variante para fundo claro ou escuro e já indica no nome
 <tr>
 <td valign="top">
 <strong><code>detalhe-1</code></strong><br><br>
-Usado em capas, telas de abertura e slides de título. Os arquivos do canto superior direito e do canto inferior esquerdo devem ser usados juntos. Em apresentações, reserve esse grafismo para a capa e os títulos de seção.
+Use em capas, telas de abertura e slides de título. Use juntos os arquivos do canto superior direito e do canto inferior esquerdo. Em apresentações, reserve esse grafismo para a capa e os títulos de seção.
 </td>
 <td valign="top">
 <strong><code>detalhe-2</code></strong><br><br>
-Faixa para títulos de páginas secundárias. Quando utilizado, o texto deve aparecer em branco dentro da área laranja.
+Faixa para títulos de páginas secundárias. Quando usado, ponha o texto em branco dentro da área laranja.
 </td>
 <td valign="top">
 <strong><code>detalhe-3</code></strong><br><br>
-Marca d'água discreta para fundos claros ou escuros. Pode ser usada sozinha ou em conjunto com o <code>detalhe-2</code>.
+Marca d'água discreta para fundos claros ou escuros. Use-a sozinha ou junto com o <code>detalhe-2</code>.
 </td>
 </tr>
 </table>
@@ -118,7 +118,7 @@ A identidade principal da Supporte utiliza três cores.
 
 Use chumbo e branco como base da composição. Reserve o laranja para elementos que precisam chamar atenção.
 
-Em produtos digitais, valide o contraste seguindo as recomendações da WCAG. O laranja sobre branco não oferece contraste suficiente para textos pequenos.
+Em produtos digitais, valide o contraste segundo as recomendações da WCAG. O laranja sobre branco não oferece contraste suficiente para textos pequenos.
 
 ## Tipografia
 
@@ -189,7 +189,7 @@ Antes de pedir que um agente crie uma tela, apresentação, documento ou outro m
 
 O `AGENTS.md` explica como usar logotipos, favicons, grafismos, fontes e outros ativos. O `DESIGN.md` reúne os tokens e as orientações específicas para produtos digitais.
 
-O arquivo `CLAUDE.md` deste repositório aponta para o `AGENTS.md`, permitindo que o Claude Code encontre as mesmas instruções.
+O arquivo `CLAUDE.md` deste repositório aponta para o `AGENTS.md`. Assim, o Claude Code encontra as mesmas instruções.
 
 Exemplo de pedido:
 

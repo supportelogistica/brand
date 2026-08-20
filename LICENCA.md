@@ -14,9 +14,9 @@ A disponibilização pública deste repositório **não** constitui licença abe
 
 É permitido, sem necessidade de autorização adicional:
 
-- **Colaboradores, parceiros e fornecedores autorizados da Supporte:** usar os arquivos oficiais deste repositório em materiais, sistemas e comunicações relacionados à Supporte, desde que em conformidade com as regras do manual de marca e do arquivo AGENTS.md;
-- **Imprensa e veículos de comunicação:** reproduzir o logotipo para fins editoriais e informativos que façam referência à Supporte, sem alteração dos arquivos;
-- **Qualquer pessoa:** visualizar e referenciar este repositório para fins de consulta.
+- Colaboradores, parceiros e fornecedores autorizados da Supporte podem usar os arquivos oficiais deste repositório em materiais, sistemas e comunicações relacionados à Supporte, desde que em conformidade com as regras do manual de marca e do arquivo AGENTS.md.
+- Imprensa e veículos de comunicação podem reproduzir o logotipo para fins editoriais e informativos que façam referência à Supporte, sem alteração dos arquivos.
+- Qualquer pessoa pode visualizar e referenciar este repositório para fins de consulta.
 
 Todo uso permitido está condicionado a:
 
