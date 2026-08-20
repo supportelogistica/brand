@@ -6,7 +6,7 @@
 
 ## 1. Ownership
 
-All content in this repository — including logos, the "PP" symbol, favicons, background graphics, design tokens, stylesheets, and documentation — is the exclusive property of **Supporte** and is protected by applicable copyright and industrial property law, including Brazilian Law No. 9,279/96 (trademarks) and Law No. 9,610/98 (copyright).
+All content in this repository, including logos, the "PP" symbol, favicons, background graphics, design tokens, stylesheets, and documentation, is the exclusive property of **Supporte** and is protected by applicable copyright and industrial property law, including Brazilian Law No. 9,279/96 (trademarks) and Law No. 9,610/98 (copyright).
 
 Making this repository publicly available does **not** constitute an open license, assignment, waiver, or limitation of any of Supporte's rights.
 
@@ -18,7 +18,7 @@ The following is permitted without further authorization:
 - **Press and media outlets:** reproducing the logo for editorial and informational purposes that reference Supporte, without altering the files;
 - **Anyone:** viewing and referencing this repository for consultation purposes.
 
-All permitted use is conditioned on:
+All permitted use requires the following:
 
 1. using only the official files, without any modification, redrawing, cropping, or recombination;
 2. following the application rules defined in `AGENTS.md` and `DESIGN.md`;
@@ -40,7 +40,7 @@ The **Titillium Web**, **Fira Sans**, and **Fira Code** font families (folder `f
 
 ## 5. Revocation and enforcement
 
-Supporte may revoke the authorization granted by this license at any time, at its sole discretion. Use in violation of these terms subjects the infringer to all applicable judicial and extrajudicial measures.
+Supporte may revoke the authorization granted by this license at any time, at its sole discretion. Violating these terms exposes the infringer to all applicable judicial and extrajudicial measures.
 
 ## 6. Disclaimer of warranties
 
