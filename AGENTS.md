@@ -1,8 +1,8 @@
 # Marca Supporte para agentes de IA
 
-Este repositório é a fonte oficial da marca **Supporte** (integradora logística brasileira). Se você é um agente construindo qualquer coisa com a marca (telas, documentos, apresentações, e-mails, textos), as regras abaixo são obrigatórias.
+Este repositório é a fonte oficial da marca **Supporte** (integradora logística brasileira). Se você é um agente construindo qualquer coisa com a marca (telas, documentos, apresentações, e-mails, textos), siga as regras abaixo. Elas são obrigatórias.
 
-**Hierarquia de fontes:** este arquivo (regras de uso de assets) → [DESIGN.md](DESIGN.md) (tokens e diretrizes de UI) → manual de marca interno (referência completa de voz, tom, públicos e valores; é documento interno da Supporte e não faz parte deste repositório público. Sem acesso a ele, siga o que está aqui e no DESIGN.md).
+**Hierarquia de fontes:** este arquivo (regras de uso de assets) → [DESIGN.md](DESIGN.md) (tokens e diretrizes de UI) → manual de marca interno (referência completa de voz, tom, públicos e valores). É documento interno da Supporte e não faz parte deste repositório público. Sem acesso a ele, siga o que está aqui e no DESIGN.md.
 
 ## Mapa do repositório
 
@@ -15,7 +15,7 @@ Este repositório é a fonte oficial da marca **Supporte** (integradora logísti
 | `fontes/` | Titillium Web, Fira Sans, Fira Code (ttf + woff2) + `fontes.css` |
 | `tokens/` | `supporte.css`, `supporte.json` (W3C), `tailwind.css` (v4), `tailwind.preset.js` (v3) |
 
-Sempre use SVG quando o meio permitir; PNG é fallback para ferramentas que não aceitam vetor (PowerPoint antigo, e-mail). **Nunca redesenhe, recorte, recolora ou reconstrua qualquer asset.**
+Se o meio permitir, use SVG. PNG é o fallback para ferramentas que não aceitam vetor (PowerPoint antigo, e-mail). **Nunca redesenhe, recorte, recolora ou reconstrua qualquer asset.**
 
 ## Logotipo: qual arquivo usar
 
@@ -35,12 +35,12 @@ Regras fixas:
 
 ## Símbolo PP (`simbolo/pp.svg`)
 
-O "PP" é a forma simplificada da logo. Permitido, **com parcimônia**:
+O "PP" é a forma simplificada da logo. Uso permitido, com parcimônia:
 
 - Avatar, ícone de app e crachá, contextos onde a marca já é conhecida.
 - Elemento gráfico: separador de footer, detalhe de cabeçalho, marca d'água discreta.
 
-Nunca como substituto do logotipo em peças de comunicação, e nunca para criar submarca sem aprovação.
+Nunca use como substituto do logotipo em peças de comunicação. Nunca use para criar submarca sem aprovação.
 
 ## Favicons: regra de escolha
 
@@ -56,29 +56,29 @@ Nunca como substituto do logotipo em peças de comunicação, e nunca para criar
 
 ## Grafismos (`grafismos/`): regra de uso
 
-Três famílias, papéis distintos. Escolha a variante `fundo-claro`/`fundo-escuro` conforme o fundo da peça, e ancore no canto que o nome do arquivo indica (não rotacione para outro canto).
+Três famílias, papéis distintos. Escolha a variante `fundo-claro`/`fundo-escuro` conforme o fundo da peça. Ancore no canto que o nome do arquivo indica e não rotacione para outro canto.
 
-**`detalhe-1`, o principal.** São DOIS arquivos usados JUNTOS: o do canto superior direito + o do canto inferior esquerdo, na mesma peça. Uso: capas, splash screens e slides de título. Cansa se usado demais: em uma apresentação, aplique somente na capa e nos slides de título de seção, nunca em todos os slides.
+**`detalhe-1`, o principal.** São DOIS arquivos usados JUNTOS: o do canto superior direito + o do canto inferior esquerdo, na mesma peça. Uso: capas, splash screens e slides de título. Não use em excesso: em uma apresentação, aplique somente na capa e nos slides de título de seção, nunca em todos os slides.
 
-**`detalhe-2`, raro e exigente.** Curva laranja grossa e chapada. Serve como faixa de título de páginas não principais, sempre com texto branco dentro dela. Se não souber aplicar bem ou o layout dificultar, simplesmente não use.
+**`detalhe-2`, raro e exigente.** Curva laranja grossa e chapada. Serve como faixa de título de páginas não principais, sempre com texto branco dentro dela. Se não souber aplicar bem ou o layout dificultar, não use.
 
-**`detalhe-3`, a marca d'água.** Malha de curvas para dar vida a páginas chapadas (brancas ou escuras) sem pesar. Pode ser usado sozinho ou combinado com o `detalhe-2`.
+**`detalhe-3`, a marca d'água.** Malha de curvas usada para reduzir o aspecto chapado de páginas (brancas ou escuras) sem pesar. Pode ser usado sozinho ou combinado com o `detalhe-2`.
 
-Nunca use grafismo como logotipo alternativo, nunca crie padrões decorativos novos a partir deles.
+Nunca use grafismo como logotipo alternativo. Nunca crie padrões decorativos novos a partir deles.
 
 ## Construindo interfaces (web/app)
 
 1. Leia [DESIGN.md](DESIGN.md): tokens YAML e regras de UI.
 2. Importe `tokens/supporte.css` (variáveis) e `fontes/fontes.css` (@font-face). Tailwind: `tokens/tailwind.css` (v4, CSS-first) ou `tokens/tailwind.preset.js` (legado, v3).
 3. Favicon conforme a regra acima.
-4. Contraste: laranja sobre branco falha WCAG AA em texto pequeno. Teste antes de usar laranja em texto ou controles.
+4. Antes de usar laranja em texto ou controles, teste o contraste: laranja sobre branco falha WCAG AA em texto pequeno.
 5. Ícones: [Lucide](https://lucide.dev/) é a família padrão. Logos de terceiros: Iconify/Simple Icons (`https://api.iconify.design/simple-icons/{marca}.svg?color=%23F37021` para monocromático). Não misture famílias de ícones.
 6. **Emojis são proibidos** em qualquer interface, documento, commit visível ao público, apresentação ou comunicação da marca. Sem exceção.
 
 ## Documentos, apresentações e e-mail
 
-- **Slides:** grafismo `detalhe-1` (o par) só em capa e títulos de seção. Corpo dos slides limpo: branco, chumbo, acento laranja. Titillium Web em títulos, Fira Sans no corpo. PNG dos assets se a ferramenta não aceitar SVG.
-- **Documentos:** mesma tipografia; logo no cabeçalho respeitando área de proteção; `detalhe-3` como marca d'água opcional em capas.
+- **Slides:** grafismo `detalhe-1` (o par) só em capa e títulos de seção. Corpo dos slides limpo: branco, chumbo, acento laranja. Use Titillium Web em títulos e Fira Sans no corpo. Se a ferramenta não aceitar SVG, use PNG dos assets.
+- **Documentos:** mesma tipografia. Logo no cabeçalho respeitando área de proteção. `detalhe-3` como marca d'água opcional em capas.
 - **E-mail/assinatura:** logo em PNG sobre fundo claro (`logo-supporte-fundo-claro.png` redimensionado, nunca abaixo de 100 px de largura).
 
 ## Escrevendo textos com a marca
