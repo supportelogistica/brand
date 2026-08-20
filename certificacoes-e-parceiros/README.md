@@ -1,8 +1,8 @@
 # Certificações e parceiros
 
-Fonte da verdade para os selos e logos de terceiros que aparecem nas comunicações da Supporte. Use sempre os arquivos daqui, para todo mundo usar o mesmo selo, sem versão errada ou desatualizada circulando.
+Fonte da verdade para os selos e logos de terceiros usados nas comunicações da Supporte. Use sempre os arquivos daqui. Isso garante que todo mundo use o mesmo selo, sem versão errada ou desatualizada em circulação.
 
-## Aviso importante
+## Restrições de uso
 
 Os arquivos desta pasta são marcas registradas de outras organizações (GPTW e ABOL), não da Supporte.
 
@@ -17,7 +17,7 @@ Os arquivos desta pasta são marcas registradas de outras organizações (GPTW e
 
 - `selo-gptw-2026.svg` / `selo-gptw-2026.png`
 - Período do selo atual: **DEZ 2025-DEZ 2026**.
-- O SVG mantém o texto do período e do país como texto editável (não é desenho/path), para dar para atualizar quando o selo for renovado.
+- O SVG mantém o texto do período e do país como texto editável, não como desenho ou path. Isso permite atualizar o texto quando o selo for renovado.
 - Fonte oficial: gerador de selo da GPTW Brasil, distribuído pela PagBrasil (parceira oficial GPTW no Brasil). Capturado em 08/2026.
 
 ### ABOL (Associação Brasileira de Operadores Logísticos)
