@@ -6,7 +6,7 @@
  *   @import "./tokens/tailwind.css";
  *
  * Gera utilitarios como bg-chumbo-700, text-laranja-500, font-titulo,
- * font-texto, font-mono e rounded-supporte-md.
+ * font-texto e font-mono.
  *
  * Os passos numericos NAO sao cores de marca: sao derivados utilitarios
  * para superficies, bordas e estados. A escala segue o padrao Tailwind
@@ -50,10 +50,4 @@
   --font-titulo: 'Titillium Web', 'Segoe UI', sans-serif;
   --font-texto: 'Fira Sans', 'Segoe UI', sans-serif;
   --font-mono: 'Fira Code', 'Cascadia Code', monospace;
-
-  /* ---------- Forma ---------- */
-  /* Cantos arredondados ecoam as curvas do "P" da marca */
-  --radius-supporte-sm: 6px;
-  --radius-supporte-md: 12px;
-  --radius-supporte-lg: 24px;
 }

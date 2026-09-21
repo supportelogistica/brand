@@ -68,8 +68,8 @@ Nunca use grafismo como logotipo alternativo. Nunca crie padrões decorativos no
 
 ## Construindo interfaces (web/app)
 
-1. Leia [DESIGN.md](DESIGN.md): tokens YAML e regras de UI.
-2. Importe `tokens/supporte.css` (variáveis) e `fontes/fontes.css` (@font-face). Tailwind: `tokens/tailwind.css` (v4, CSS-first) ou `tokens/tailwind.preset.js` (legado, v3).
+1. Leia [DESIGN.md](DESIGN.md): cores, tipografia e regras de marca aplicadas a tela.
+2. Importe `tokens/supporte.css` (cores e fontes) e `fontes/fontes.css` (@font-face). Tailwind: `tokens/tailwind.css` (v4, CSS-first) ou `tokens/tailwind.preset.js` (legado, v3). Espaçamento, raio de canto e componentes são decisão de cada produto: a marca não dita isso.
 3. Favicon conforme a regra acima.
 4. Antes de usar laranja em texto ou controles, teste o contraste: laranja sobre branco falha WCAG AA em texto pequeno.
 5. Ícones: [Lucide](https://lucide.dev/) é a família padrão. Logos de terceiros: Iconify/Simple Icons (`https://api.iconify.design/simple-icons/{marca}.svg?color=%23F37021` para monocromático). Não misture famílias de ícones.

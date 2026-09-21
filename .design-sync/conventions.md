@@ -8,12 +8,12 @@ Não há provider nem wrapper: basta o CSS. `styles.css` já importa `tokens/sup
 
 ## Tokens (CSS custom properties)
 
+A marca define **cor e tipografia**. Espaçamento, raio de canto e receitas de componente são decisão do produto: escolha valores coerentes e mantenha-os consistentes.
+
 Cores de marca (só três): `--supporte-chumbo` (#58595B), `--supporte-laranja` (#F37021), `--supporte-branco`.
 Derivados UI (não são cores de marca): `--supporte-chumbo-900|700|500|300|100|050`, `--supporte-laranja-600|500|100`.
 Papéis semânticos: `--supporte-cor-texto`, `--supporte-cor-texto-secundario`, `--supporte-cor-fundo`, `--supporte-cor-destaque`, `--supporte-cor-destaque-hover`, `--supporte-cor-borda`.
 Tipografia: `--supporte-fonte-titulo` (Titillium Web: títulos, SemiBold 600), `--supporte-fonte-texto` (Fira Sans: corpo, formulários), `--supporte-fonte-mono` (Fira Code: só código/logs, ligaduras ativas). Pesos: `--supporte-peso-extraleve|leve|regular|semibold` (200/300/400/600).
-Raios: `--supporte-raio-sm|md|lg|cheio` (6/12/24px/pill). Use sm em controles pequenos, md em botões e inputs, lg em cards.
-Espaçamento (base 4px): `--supporte-espaco-1|2|3|4|6|8|12|16` (4→64px).
 
 Preset Tailwind opcional em `tokens/tailwind.preset.js`. Formato W3C em `tokens/supporte.json`.
 
@@ -24,7 +24,6 @@ Preset Tailwind opcional em `tokens/tailwind.preset.js`. Formato W3C em `tokens/
 - Nunca comunicar estado só com cor. **Nunca usar emojis.** Ícones: família Lucide.
 - Fira Code nunca em texto corrido ou títulos.
 - Logos e grafismos: use os arquivos de `guidelines/assets/` como estão, sem redesenhar, recolorir, distorcer ou sombrear. Use `logo-supporte-fundo-claro.svg` em fundo claro e `logo-supporte-fundo-escuro.svg` em fundo escuro. O símbolo é `pp.svg`.
-- Elevação vem de espaço, superfície (`--supporte-chumbo-050`) e borda (`--supporte-cor-borda`), nunca de sombra pesada.
 
 ## Documentação de referência
 
@@ -35,12 +34,11 @@ Leia `styles.css` antes de estilizar. Ele aponta para `tokens/supporte.css` (nom
 ```html
 <button style="background:var(--supporte-cor-destaque); color:var(--supporte-branco);
   font:var(--supporte-peso-semibold) 15px var(--supporte-fonte-texto);
-  border:0; border-radius:var(--supporte-raio-md);
-  padding:var(--supporte-espaco-3) var(--supporte-espaco-6);">Rastrear pedido</button>
+  border:0; border-radius:12px; padding:12px 24px;">Rastrear pedido</button>
 
 <div style="background:var(--supporte-branco); border:1px solid var(--supporte-cor-borda);
-  border-radius:var(--supporte-raio-lg); padding:var(--supporte-espaco-6);">
-  <h3 style="font-family:var(--supporte-fonte-titulo); margin:0 0 var(--supporte-espaco-2);">Entregas hoje</h3>
+  border-radius:24px; padding:24px;">
+  <h3 style="font-family:var(--supporte-fonte-titulo); margin:0 0 8px;">Entregas hoje</h3>
   <p style="color:var(--supporte-cor-texto-secundario); margin:0;">128 pedidos em rota</p>
 </div>
 ```

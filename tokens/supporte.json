@@ -62,21 +62,5 @@
     "leve": { "$value": 300, "$type": "fontWeight" },
     "regular": { "$value": 400, "$type": "fontWeight" },
     "semibold": { "$value": 600, "$type": "fontWeight" }
-  },
-  "borderRadius": {
-    "sm": { "$value": "6px", "$type": "dimension" },
-    "md": { "$value": "12px", "$type": "dimension" },
-    "lg": { "$value": "24px", "$type": "dimension" },
-    "cheio": { "$value": "9999px", "$type": "dimension" }
-  },
-  "spacing": {
-    "1": { "$value": "4px", "$type": "dimension" },
-    "2": { "$value": "8px", "$type": "dimension" },
-    "3": { "$value": "12px", "$type": "dimension" },
-    "4": { "$value": "16px", "$type": "dimension" },
-    "6": { "$value": "24px", "$type": "dimension" },
-    "8": { "$value": "32px", "$type": "dimension" },
-    "12": { "$value": "48px", "$type": "dimension" },
-    "16": { "$value": "64px", "$type": "dimension" }
   }
 }

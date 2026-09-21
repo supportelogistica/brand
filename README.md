@@ -155,11 +155,13 @@ Evite pesos muito leves em tamanhos pequenos, fundos complexos ou situações de
 
 ## Tokens de design
 
-A pasta [tokens/](tokens/) reúne cores, fontes, espaçamentos, raios e outros valores usados em interfaces.
+A pasta [tokens/](tokens/) reúne as cores e as fontes da marca, prontas para uso em código.
+
+Espaçamento, raio de canto e receitas de componente não ficam aqui. Isso é decisão de cada produto, não da marca.
 
 | Arquivo | Uso |
 | --- | --- |
-| [supporte.css](tokens/supporte.css) | Variáveis CSS prontas para projetos web |
+| [supporte.css](tokens/supporte.css) | Variáveis CSS de cor e tipografia |
 | [supporte.json](tokens/supporte.json) | Tokens no formato W3C Design Tokens |
 | [tailwind.css](tokens/tailwind.css) | Tokens para Tailwind CSS v4, no formato CSS-first (`@theme`) |
 | [tailwind.preset.js](tokens/tailwind.preset.js) | Preset legado para projetos ainda em Tailwind CSS v3 |
@@ -172,12 +174,11 @@ Exemplo com CSS:
 .botao-primario {
   background: var(--supporte-laranja);
   color: var(--supporte-branco);
-  border-radius: var(--supporte-raio-md);
   font-family: var(--supporte-fonte-texto);
 }
 ```
 
-Para orientações mais completas sobre interfaces, componentes, contraste e hierarquia visual, consulte o [DESIGN.md](DESIGN.md).
+Para as regras de cor, tipografia e contraste aplicadas a tela, consulte o [DESIGN.md](DESIGN.md).
 
 ## Uso com agentes de IA
 

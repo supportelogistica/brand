@@ -50,11 +50,6 @@ module.exports = {
         texto: ['"Fira Sans"', '"Segoe UI"', "sans-serif"],
         mono: ['"Fira Code"', '"Cascadia Code"', "monospace"],
       },
-      borderRadius: {
-        "supporte-sm": "6px",
-        "supporte-md": "12px",
-        "supporte-lg": "24px",
-      },
     },
   },
 };
